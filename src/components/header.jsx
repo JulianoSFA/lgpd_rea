@@ -6,18 +6,23 @@ export const Header = (props) => {
       <div className="intro">
         <div className="overlay">
           <div className="container">
-            <div className="row">
-              <div className="col-md-8 col-md-offset-2 intro-text">
+            <div className="row justify-content-center">
+              <div className="col-md-8 intro-text">
                 <h1>
-                  {props.data ? props.data.title : "Loading"}
-                  <span></span>
+                  <span>
+                    {props.data ? props.data.title : "Loading"}
+                  </span>
                 </h1>
-                <p>{props.data ? props.data.paragraph : "Loading"}</p>
+                <p>
+                  <span>
+                    {props.data ? props.data.paragraph : "Loading"}
+                  </span>
+                </p>
                 <a
                   href="#features"
                   className="btn btn-custom btn-lg page-scroll"
                 >
-                  Learn More
+                  Começe Agora
                 </a>{" "}
               </div>
             </div>

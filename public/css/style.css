@@ -209,6 +209,7 @@ a:focus,
   width: 100%;
   padding: 0;
   background: url(../img/rea/cyber-security-3400657_1920.jpg) center center no-repeat;
+  opacity: 0.9;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -226,22 +227,20 @@ a:focus,
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
-}
-.intro h1 span {
-  font-weight: 800;
-  color: #5ca9fb;
+  -webkit-text-stroke: 0.25px black;
 }
 .intro p {
   color: #fff;
   font-size: 22px;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
+  -webkit-text-stroke: 0.15px black;
 }
 header .intro-text {
-  padding-top: 350px;
-  padding-bottom: 200px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   text-align: center;
 }
 /* Features Section */
@@ -602,5 +601,14 @@ label {
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro h1 {
+    font-size: 3rem;
+  }
+  .intro p {
+    font-size: 1rem;
   }
 }

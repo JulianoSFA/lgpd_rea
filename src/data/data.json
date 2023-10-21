@@ -4,8 +4,30 @@
   },
   "Header": {
     "title": "LGP para Desenvolvedores",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "paragraph": "Desenvolvimento de sistemas de acordo com a LGPD: conceitos e práticas essenciais para garantir a segurança e a transparência dos dados pessoais."
   },
+  "Features": [
+    {
+      "icon": "fa fa-bookmark",
+      "title": "O que é LGPD",
+      "text": "Conheça os conceitos básicos e as principais aplicação da Lei Geral de Proteção de Dados."
+    },
+    {
+      "icon": "fa fa-question",
+      "title": "O que proteger?",
+      "text": "Uma síntese dos dados a serem protegidos."
+    },
+    {
+      "icon": "fa fa-exclamation",
+      "title": "Como fazer!",
+      "text": "Conheça métodos para tratar dados via API em conformidade com a LGPD."
+    },
+    {
+      "icon": "fa fa-comment",
+      "title": "Você aprendeu?",
+      "text": "Quiz educacional sobre o contúdo apresentado." 
+    }
+  ],
   "About": {
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "Why": [
@@ -161,27 +183,5 @@
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
-  },
-  "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    }
-  ]
+  }
 }
