@@ -17,7 +17,7 @@
       "icon": "fa fa-question",
       "title": "O que proteger?",
       "text": "Uma síntese dos dados a serem protegidos.",
-      "href": "#about"
+      "href": "#whatProtect"
     },
     {
       "icon": "fa fa-exclamation",
@@ -45,6 +45,44 @@
       "Cria a Autoridade Nacional de Proteção de Dados (ANPD), que é o órgão responsável por fiscalizar e aplicar sanções em caso de violação da lei.",
       "Prevê as responsabilidades e as sanções para os agentes de tratamento, que são as pessoas ou empresas que realizam o tratamento dos dados pessoais.",
       "Exige que os agentes de tratamento adotem medidas técnicas e administrativas para garantir a segurança e a proteção dos dados pessoais."
+    ]
+  },
+  "Services": {
+    "title": "O que Proteger?",
+    "id": "whatProtect",
+    "info": "A Lei Geral de Proteção de Dados (LGPD) do Brasil protege uma variedade de tipos de dados. Aqui está uma síntese do que deve ser protegido:",
+    "postInfo": "Como regra geral, se os dados se enquadram em qualquer uma dessas categorias, eles devem ser protegidos pela LGPD. No entanto, é importante lembrar que a LGPD exige consentimento explícito para coleta e uso desses dados, exceto em algumas circunstâncias específicas. Além disso, os titulares dos dados têm o direito de acessar, corrigir e excluir seus dados. Portanto, sempre que estiver lidando com dados pessoais, é crucial garantir que você esteja em conformidade com todas as disposições da LGPD.",
+    "items": [
+      {
+        "icon": "fa fa-user",
+        "name": "Dados pessoais",
+        "text": "Qualquer informação relacionada a uma pessoa natural identificada ou identificável. Isso inclui nome, endereço, e-mail, número de telefone, etc."
+      },
+      {
+        "icon": "fa fa-shield",
+        "name": "Dados pessoais sensíveis",
+        "text": "Dados sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico."
+      },
+      {
+        "icon": "fa fa-history",
+        "name": "Dados de registro",
+        "text": "Isso inclui registros de acesso a aplicações de internet, quando coletados para fins de segurança. Isso pode incluir endereços IP, datas e horários de acesso, e informações sobre o dispositivo usado para o acesso."
+      },
+      {
+        "icon": "fa fa-user-secret",
+        "name": "Dados anonimizados",
+        "text": "Dados relativos a um titular que não possa ser identificado."
+      },
+      {
+        "icon": "fa fa-child",
+        "name": "Dados de crianças e adolescentes",
+        "text": "Estes dados têm um nível extra de proteção."
+      },
+      {
+        "icon": "fa fa-globe",
+        "name": "Dados públicos",
+        "text": "Dados que são acessíveis ao público em geral."
+      }
     ]
   },
   "Gallery": [
@@ -92,38 +130,6 @@
       "title": "Project Title",
       "largeImage": "img/portfolio/09-large.jpg",
       "smallImage": "img/portfolio/09-small.jpg"
-    }
-  ],
-  "Services": [
-    {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     }
   ],
   "Testimonials": [
