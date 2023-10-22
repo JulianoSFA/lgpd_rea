@@ -2,33 +2,33 @@ import React from "react";
 
 export const About = (props) => {
   return (
-    <div id="about">
-      <div className="container">
-        <div className="row">
-          <div className="col-xs-12 col-md-6">
-            {" "}
-            <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
-          </div>
-          <div className="col-xs-12 col-md-6">
+    <div id="#about">
+      <div id={props?.data?.id} className="container">
+        <div className="row align-items-center">
+          {  
+            (!!props?.data?.showImage) ?
+              <div class="col-xs-12 col-md-6">
+                <img src={props.data.image} class="img-fluid rounded p-5" alt="" />{" "}
+              </div>
+              : null
+          } 
+          <div 
+            class={(!!props?.data?.showImage) ? "col-xs-12 col-md-6" : "col-xs-12"}
+            style={{"text-align": "justify"}}
+          >
             <div className="about-text">
-              <h2>About Us</h2>
+              <h2>{props?.data?.title}</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
-              <h3>Why Choose Us?</h3>
-              <div className="list-style">
-                <div className="col-lg-6 col-sm-6 col-xs-12">
+              <h3>{props?.data?.subtitle}</h3>
+              <div 
+                className="list-style"
+                style={{"padding": "0 0 0 3rem"}}
+              >
+                <div>
                   <ul>
-                    {props.data
-                      ? props.data.Why.map((d, i) => (
-                          <li key={`${d}-${i}`}>{d}</li>
-                        ))
-                      : "loading"}
-                  </ul>
-                </div>
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
-                    {props.data
-                      ? props.data.Why2.map((d, i) => (
-                          <li key={`${d}-${i}`}> {d}</li>
+                    {props.data?.topics
+                      ? props.data.topics.map((d, i) => (
+                          <li class="mb-2" key={`${d}-${i}`}>{d}</li>
                         ))
                       : "loading"}
                   </ul>

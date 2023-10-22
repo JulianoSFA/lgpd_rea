@@ -21,8 +21,9 @@ const App = () => {
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
-
+  console.log(landingPageData.About)
   return (
+
     <div>
       <Header data={landingPageData.Header} />
       <Features title="Conteúdo" data={landingPageData.Features} />
