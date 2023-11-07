@@ -24,7 +24,7 @@ export const Services = (props) => {
               ))
             : "loading"}
         </div>
-        <div>
+        <div class="section-title">
           <p>
             { props?.data?.postInfo ? props.data.postInfo : "...loading"}
           </p>

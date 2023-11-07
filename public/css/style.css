@@ -310,13 +310,18 @@ header .intro-text {
 #services {
   padding: 100px 0;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: #fff;
+  color: #fff !important;
+}
+#services:nth-child(odd){
+  padding: 100px 0;
+  background: linear-gradient(to right, #fff 0%, #f0f0f0 100%);
+  color: black !important;
 }
 #services .service-desc {
   margin: 10px 10px 20px;
 }
-#services h2 {
-  color: #fff;
+#services:nth-child(even) h2 {
+  color: #fff !important;
 }
 #services .section-title h2::after {
   position: absolute;
@@ -343,9 +348,10 @@ header .intro-text {
   padding: 5px 0;
   color: #fff;
 }
-#services p {
-  color: rgba(255, 255, 255, 0.75);
+#services:nth-child(odd) h3 {
+  color: black !important
 }
+
 #services .service-desc {
   margin-bottom: 40px;
 }
