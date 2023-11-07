@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
 import { About } from "./components/about";
+import { Recommendations } from "./components/Recommendations";
+import { Gallery } from "./components/gallery";
+import { Testimonials } from "./components/testimonials";
 import { Services } from "./components/services";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
@@ -28,6 +31,10 @@ const App = () => {
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
       <Services data={landingPageData.Services} />
+      <Recommendations data={landingPageData.Recommendations} />
+      <Gallery data={landingPageData.Gallery} />
+      <Testimonials data={landingPageData.Testimonials} />
+      <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
     </div>
   );

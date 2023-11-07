@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Services = (props) => {
+export const Recommendations = (props) => {
   return (
     <div id="services" className="text-center">
       <div id={props?.data?.id ? props.data.id : "services"} className="container">

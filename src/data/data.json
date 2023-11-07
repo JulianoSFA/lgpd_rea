@@ -47,6 +47,129 @@
       "Exige que os agentes de tratamento adotem medidas técnicas e administrativas para garantir a segurança e a proteção dos dados pessoais."
     ]
   },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Recommendations": [
+    {
+      "icon": "fa fa-lock",
+      "name": "Criptografia de senha",
+      "text": "Mantenha a senha dos usuários sempre criptografadas usando criptografia unidirecional, como por exemplo a família SHA-2, não é necessário descriptografar a senha para checar, apenas criptografar a senha nova com a mesma chave e comparar as duas, dessa forma é praticamente impossível ocorrer um vazamento de senha"
+    },
+    {
+      "icon": "fa fa-envelope-o",
+      "name": "Borrar informações para seleção",
+      "text": "Quando for necessário pedir que o usuário escolha entre algum dado pessoal dele (email/telefone/endereço) para algum fim, como autenticação em 2 fatores ou seleção de endereço de entrega, envie a informação borrada (como por exemplo \"em***@g****.com\") e um hash, que vai ser enviado entre o servidor e a aplicação pra dizer qual informação foi escolhido, dessa forma as informações pessoais do usuário não são mostrados na tela e evita ataques de enumeração de usuário"
+    },
+    {
+      "icon": "fa fa-times-circle",
+      "name": "Exclusão de conta",
+      "text": "De acordo com a LGPD o detentor dos dados pode solicitar a exclusão dos dados a qualquer momento, sendo assim é preciso alguma forma do usuário poder apagar a própria conta, um botão sendo a forma mais prática (em algumas lojas de aplicativo, como da apple, isso é uma obrigatoriedade de todos os apps), essa função deve limpar completamente as informações do usuário e garantir que nenhum dado possa ser rastreado devolta a ele"
+    },
+    {
+      "icon": "fa fa-info-circle",
+      "name": "Consentimento de cookies",
+      "text": "É necessário avisar o usuário sobre o uso de cookies, a coleta de informações do usuário e o propósito da coleta caem na LGPD, logo essa coleta precisa ser notificada, autorizada e, em caso de dados não essenciais pro funcionamento do sistema, precisam dar a opção do usuário não concordar e desabilitar"
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
   "Services": {
     "title": "O que Proteger?",
     "id": "whatProtect",
