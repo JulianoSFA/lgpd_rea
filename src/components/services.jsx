@@ -13,7 +13,7 @@ export const Services = (props) => {
         <div className="row">
           {props?.data?.items
             ? props.data.items.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-4">
+                <div key={`${d.name}-${i}`} className={props?.data?.colClass ? props?.data?.colClass : "col-md-4"}>
                   {" "}
                   <i className={d.icon}></i>
                   <div className="service-desc">
@@ -24,7 +24,7 @@ export const Services = (props) => {
               ))
             : "loading"}
         </div>
-        <div class="section-title">
+        <div className="section-title">
           <p>
             { props?.data?.postInfo ? props.data.postInfo : "...loading"}
           </p>

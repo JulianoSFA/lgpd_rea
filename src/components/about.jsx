@@ -7,15 +7,12 @@ export const About = (props) => {
         <div className="row align-items-center">
           {  
             (!!props?.data?.showImage) ?
-              <div class="col-xs-12 col-md-6">
-                <img src={props.data.image} class="img-fluid rounded p-5" alt="" />{" "}
+              <div className="col-xs-12 col-md-6">
+                <img src={props.data.image} className="img-fluid rounded p-5" alt="" />{" "}
               </div>
               : null
           } 
-          <div 
-            class={(!!props?.data?.showImage) ? "col-xs-12 col-md-6" : "col-xs-12"}
-            style={{"text-align": "justify"}}
-          >
+          <div className={(!!props?.data?.showImage) ? "col-xs-12 col-md-6" : "col-xs-12"}>
             <div className="about-text">
               <h2>{props?.data?.title}</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
@@ -28,7 +25,7 @@ export const About = (props) => {
                   <ul>
                     {props.data?.topics
                       ? props.data.topics.map((d, i) => (
-                          <li class="mb-2" key={`${d}-${i}`}>{d}</li>
+                          <li className="mb-2" key={`${d}-${i}`}>{d}</li>
                         ))
                       : "loading"}
                   </ul>

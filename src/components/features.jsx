@@ -2,9 +2,9 @@ import React from "react";
 
 export const Features = (props) => {
   return (
-    <div id="features"  class="py-5 text-center">
+    <div id="features"  className="py-5 text-center">
       <div className="container">
-        <div class="row justify-content-center">
+        <div className="row justify-content-center">
           <div className="col-md-10 section-title">
             <h2>{props?.title ? props.title : 'Carregando'}</h2>
           </div>
