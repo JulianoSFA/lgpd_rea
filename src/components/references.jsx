@@ -2,7 +2,7 @@ import React from "react";
 
 export const References = (props) => {
   return (
-    <div id="#references" class="py-5">
+    <div id="#references" className="py-5">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-xs-12">

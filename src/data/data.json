@@ -93,6 +93,16 @@
     "colClass": "col-md-6",
     "items": [
       {
+        "icon": "fa fa-info-circle",
+        "name": "Consentimento de cookies",
+        "text": "É necessário avisar o usuário sobre o uso de cookies, a coleta de informações do usuário e o propósito da coleta caem na LGPD, logo essa coleta precisa ser notificada, autorizada e, em caso de dados não essenciais pro funcionamento do sistema, precisam dar a opção do usuário não concordar e desabilitar"
+      },
+      {
+        "icon": "fa fa-times-circle",
+        "name": "Exclusão de conta",
+        "text": "De acordo com a LGPD o detentor dos dados pode solicitar a exclusão dos dados a qualquer momento, sendo assim é preciso alguma forma do usuário poder apagar a própria conta, um botão sendo a forma mais prática (em algumas lojas de aplicativo, como da apple, isso é uma obrigatoriedade de todos os apps), essa função deve limpar completamente as informações do usuário e garantir que nenhum dado possa ser rastreado devolta a ele"
+      },
+      {
         "icon": "fa fa-lock",
         "name": "Criptografia de senha",
         "text": "Mantenha a senha dos usuários sempre criptografadas usando criptografia unidirecional, como por exemplo a família SHA-2, não é necessário descriptografar a senha para checar, apenas criptografar a senha nova com a mesma chave e comparar as duas, dessa forma é praticamente impossível ocorrer um vazamento de senha"
@@ -103,14 +113,14 @@
         "text": "Quando for necessário pedir que o usuário escolha entre algum dado pessoal dele (email/telefone/endereço) para algum fim, como autenticação em 2 fatores ou seleção de endereço de entrega, envie a informação borrada (como por exemplo \"em***@g****.com\") e um hash, que vai ser enviado entre o servidor e a aplicação pra dizer qual informação foi escolhido, dessa forma as informações pessoais do usuário não são mostrados na tela e evita ataques de enumeração de usuário"
       },
       {
-        "icon": "fa fa-times-circle",
-        "name": "Exclusão de conta",
-        "text": "De acordo com a LGPD o detentor dos dados pode solicitar a exclusão dos dados a qualquer momento, sendo assim é preciso alguma forma do usuário poder apagar a própria conta, um botão sendo a forma mais prática (em algumas lojas de aplicativo, como da apple, isso é uma obrigatoriedade de todos os apps), essa função deve limpar completamente as informações do usuário e garantir que nenhum dado possa ser rastreado devolta a ele"
+        "icon": "fa fa-check",
+        "name": "Consentimento",
+        "text": "É essencial garantir que os dados pessoais coletados sejam tratados de forma segura e confidencial. Isso se aplica não apenas aos dados coletados após a implementação da LGPD, mas também aos dados coletados anteriormente ou adquiridos de terceiros. Os dados devem ser usados apenas para os fins que o indivíduo consentiu. Além disso, os indivíduos têm o direito de acessar, corrigir, excluir, limitar o uso ou se opor ao processamento dos seus dados a qualquer momento. Portanto, é crucial que os desenvolvedores estejam cientes dessas obrigações e implementem práticas de gerenciamento de dados que estejam em conformidade com a LGPD. Se surgirem dúvidas sobre como os dados são tratados, é importante buscar orientação para garantir a conformidade com a lei. Afinal, a proteção de dados não é apenas uma questão legal, mas também uma questão de confiança e respeito pelos direitos dos indivíduos."
       },
       {
-        "icon": "fa fa-info-circle",
-        "name": "Consentimento de cookies",
-        "text": "É necessário avisar o usuário sobre o uso de cookies, a coleta de informações do usuário e o propósito da coleta caem na LGPD, logo essa coleta precisa ser notificada, autorizada e, em caso de dados não essenciais pro funcionamento do sistema, precisam dar a opção do usuário não concordar e desabilitar"
+        "icon": "fa fa-times",
+        "name": "Venda de dados",
+        "text": "Se uma organização planeja vender dados que coletou, ela deve garantir que tenha obtido o consentimento adequado do titular dos dados. Além disso, a organização deve estar preparada para atender a qualquer solicitação do titular dos dados relacionada aos seus direitos sob a LGPD. Vale ressaltar que a LGPD se aplica a qualquer processamento de dados que ocorra no Brasil, para fins de oferta de bens e serviços ou para processar dados de pessoas que estão localizadas no Brasil1. Portanto, mesmo que a organização que vende os dados não esteja fisicamente presente ou tenha sede no Brasil, ela ainda estará sujeita à LGPD se os titulares dos dados estiverem localizados no Brasil."
       }
     ]
   },
