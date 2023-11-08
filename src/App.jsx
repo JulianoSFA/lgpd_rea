@@ -3,7 +3,8 @@ import { Header } from "./components/header";
 import { Features } from "./components/features";
 import { About } from "./components/about";
 import { Services } from "./components/services";
-import { Contact } from "./components/contact";
+import { Footer } from "./components/footer";
+import { Form } from "./components/form"; 
 import { References } from "./components/references";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
@@ -28,8 +29,9 @@ const App = () => {
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
       <Services data={landingPageData.Recommendations} />
+      <Form></Form>
       <References></References>
-      <Contact data={landingPageData.Contact} />
+      <Footer data={landingPageData.Contact} />
     </div>
   );
 };
