@@ -1,0 +1,139 @@
+{
+  "NavTitle": {
+    "title": "LGPD para Desenvolvedores"
+  },
+  "Header": {
+    "title": "LGPD para Desenvolvedores",
+    "paragraph": "Desenvolvimento de sistemas de acordo com a LGPD: conceitos e práticas essenciais para garantir a segurança e a transparência dos dados pessoais."
+  },
+  "Features": [
+    {
+      "icon": "fa fa-bookmark",
+      "title": "O que é LGPD",
+      "text": "Conheça os conceitos básicos e as principais aplicação da Lei Geral de Proteção de Dados.",
+      "href": "#lgpd"
+    },
+    {
+      "icon": "fa fa-question",
+      "title": "O que proteger?",
+      "text": "Uma síntese dos dados a serem protegidos.",
+      "href": "#whatProtect"
+    },
+    {
+      "icon": "fa fa-exclamation",
+      "title": "Recomendações",
+      "text": "Conheça métodos para tratar dados via API em conformidade com a LGPD.",
+      "href": "#recommendations"
+    },
+    {
+      "icon": "fa fa-comment",
+      "title": "Você aprendeu?",
+      "text": "Quiz educacional sobre o conteúdo apresentado.",
+      "href": "#contact"
+    }
+  ],
+  "About": {
+    "showImage": true,
+    "image": "img/rea/lgpd_intro.jpeg",
+    "title": "O que é LGPD?",
+    "id": "#lgpd",
+    "paragraph": "A Lei Geral de Proteção de Dados Pessoais (LGPD), foi criada em 2018 e entrou em vigor em 2021 no Brasil. Ela tem o objetivo de proteger os direitos de liberdade e privacidade das pessoas em relação aos seus dados pessoais. Ela se aplica a qualquer pessoa ou empresa que colete, armazene ou use dados pessoais no Brasil ou de pessoas localizadas no Brasil. A LGPD faz parte de um movimento global de segurança da informação, que busca garantir que os dados sejam tratados de forma ética, transparente e segura. Segurança da informação é a prática de proteger os dados contra riscos como acesso não autorizado, uso indevido, alteração, perda ou destruição",
+    "subtitle": "Principais Pontos",
+    "topics": [
+      "Estabelece os princípios e as bases legais para o tratamento de dados pessoais, como o consentimento, a finalidade, a necessidade e a adequação.",
+      "Define os direitos dos titulares dos dados, como o acesso, a correção, a portabilidade, a eliminação e a revogação do consentimento.",
+      "Cria a Autoridade Nacional de Proteção de Dados (ANPD), que é o órgão responsável por fiscalizar e aplicar sanções em caso de violação da lei.",
+      "Prevê as responsabilidades e as sanções para os agentes de tratamento, que são as pessoas ou empresas que realizam o tratamento dos dados pessoais.",
+      "Exige que os agentes de tratamento adotem medidas técnicas e administrativas para garantir a segurança e a proteção dos dados pessoais."
+    ]
+  },
+  "Services": {
+    "title": "O que Proteger?",
+    "id": "whatProtect",
+    "info": "A Lei Geral de Proteção de Dados (LGPD) do Brasil protege uma variedade de tipos de dados. Aqui está uma síntese do que deve ser protegido:",
+    "postInfo": "Como regra geral, se os dados se enquadram em qualquer uma dessas categorias, eles devem ser protegidos pela LGPD. No entanto, é importante lembrar que a LGPD exige consentimento explícito para coleta e uso desses dados, exceto em algumas circunstâncias específicas. Além disso, os titulares dos dados têm o direito de acessar, corrigir e excluir seus dados. Portanto, sempre que estiver lidando com dados pessoais, é crucial garantir que você esteja em conformidade com todas as disposições da LGPD.",
+    "items": [
+      {
+        "icon": "fa fa-user",
+        "name": "Dados pessoais",
+        "text": "Qualquer informação relacionada a uma pessoa natural identificada ou identificável. Isso inclui nome, endereço, e-mail, número de telefone, etc."
+      },
+      {
+        "icon": "fa fa-shield",
+        "name": "Dados pessoais sensíveis",
+        "text": "Dados sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico."
+      },
+      {
+        "icon": "fa fa-history",
+        "name": "Dados de registro",
+        "text": "Isso inclui registros de acesso a aplicações de internet, quando coletados para fins de segurança. Isso pode incluir endereços IP, datas e horários de acesso, e informações sobre o dispositivo usado para o acesso."
+      },
+      {
+        "icon": "fa fa-user-secret",
+        "name": "Dados anonimizados",
+        "text": "Dados relativos a um titular que não possa ser identificado."
+      },
+      {
+        "icon": "fa fa-child",
+        "name": "Dados de crianças e adolescentes",
+        "text": "Estes dados têm um nível extra de proteção."
+      },
+      {
+        "icon": "fa fa-globe",
+        "name": "Dados públicos",
+        "text": "Dados que são acessíveis ao público em geral."
+      }
+    ]
+  },
+  "Recommendations": {
+    "title": "Recomendações",
+    "id": "recommendations",
+    "info": "Abaixo, segue algumas recomendações de ações que podem ser feitas para evitar problemas com dados pessoais",
+    "postInfo": " ",
+    "colClass": "col-md-6",
+    "items": [
+      {
+        "icon": "fa fa-info-circle",
+        "name": "Consentimento de cookies",
+        "text": "É necessário avisar o usuário sobre o uso de cookies, a coleta de informações do usuário e o propósito da coleta caem na LGPD, logo essa coleta precisa ser notificada, autorizada e, em caso de dados não essenciais pro funcionamento do sistema, precisam dar a opção do usuário não concordar e desabilitar"
+      },
+      {
+        "icon": "fa fa-times-circle",
+        "name": "Exclusão de conta",
+        "text": "De acordo com a LGPD o detentor dos dados pode solicitar a exclusão dos dados a qualquer momento, sendo assim é preciso alguma forma do usuário poder apagar a própria conta, um botão sendo a forma mais prática (em algumas lojas de aplicativo, como da apple, isso é uma obrigatoriedade de todos os apps), essa função deve limpar completamente as informações do usuário e garantir que nenhum dado possa ser rastreado devolta a ele"
+      },
+      {
+        "icon": "fa fa-lock",
+        "name": "Criptografia de senha",
+        "text": "Mantenha a senha dos usuários sempre criptografadas usando criptografia unidirecional, como por exemplo a família SHA-2, não é necessário descriptografar a senha para checar, apenas criptografar a senha nova com a mesma chave e comparar as duas, dessa forma é praticamente impossível ocorrer um vazamento de senha"
+      },
+      {
+        "icon": "fa fa-envelope-o",
+        "name": "Borrar informações para seleção",
+        "text": "Quando for necessário pedir que o usuário escolha entre algum dado pessoal dele (email/telefone/endereço) para algum fim, como autenticação em 2 fatores ou seleção de endereço de entrega, envie a informação borrada (como por exemplo \"em***@g****.com\") e um hash, que vai ser enviado entre o servidor e a aplicação pra dizer qual informação foi escolhido, dessa forma as informações pessoais do usuário não são mostrados na tela e evita ataques de enumeração de usuário"
+      },
+      {
+        "icon": "fa fa-check",
+        "name": "Consentimento",
+        "text": "É essencial garantir que os dados pessoais coletados sejam tratados de forma segura e confidencial. Isso se aplica não apenas aos dados coletados após a implementação da LGPD, mas também aos dados coletados anteriormente ou adquiridos de terceiros. Os dados devem ser usados apenas para os fins que o indivíduo consentiu. Além disso, os indivíduos têm o direito de acessar, corrigir, excluir, limitar o uso ou se opor ao processamento dos seus dados a qualquer momento. Portanto, é crucial que os desenvolvedores estejam cientes dessas obrigações e implementem práticas de gerenciamento de dados que estejam em conformidade com a LGPD. Se surgirem dúvidas sobre como os dados são tratados, é importante buscar orientação para garantir a conformidade com a lei. Afinal, a proteção de dados não é apenas uma questão legal, mas também uma questão de confiança e respeito pelos direitos dos indivíduos."
+      },
+      {
+        "icon": "fa fa-times",
+        "name": "Venda de dados",
+        "text": "Se uma organização planeja vender dados que coletou, ela deve garantir que tenha obtido o consentimento adequado do titular dos dados. Além disso, a organização deve estar preparada para atender a qualquer solicitação do titular dos dados relacionada aos seus direitos sob a LGPD. Vale ressaltar que a LGPD se aplica a qualquer processamento de dados que ocorra no Brasil, para fins de oferta de bens e serviços ou para processar dados de pessoas que estão localizadas no Brasil1. Portanto, mesmo que a organização que vende os dados não esteja fisicamente presente ou tenha sede no Brasil, ela ainda estará sujeita à LGPD se os titulares dos dados estiverem localizados no Brasil."
+      }
+    ]
+  },
+  "References": {
+    "title": "Referências",
+    "items": [
+      "<p>ALMEIDA, S. DO C. D. DE; SOARES, T. A.. <b>Os impactos da Lei Geral de Proteção de Dados - LGPD no cenário digital.</b> Perspectivas em Ciência da Informação, v. 27, n. 3, p. 26–45, jul. 2022. Disponível em: <a href=\"https://www.scielo.br/j/pci/a/tb9czy3W9RtzgbWWxHTXkCc/#\">https://www.scielo.br/j/pci/a/tb9czy3W9RtzgbWWxHTXkCc/#</a>. Acesso em: 16 set. 2023.</p>",
+      "<p>BRASIL. <b>Constituição da República Federativa do Brasil de 1988, 1988.</b> Disponível em: <a href=\"https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm\">https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm</a>. Acceso em: 16 set. 2023.</p>",
+      "<p>BRASIL. <b>Lei nº 12.965, de 23 de abril de 2014.</b> Estabelece princípios, garantias, direitos e deveres para o uso da Internet no Brasil. Disponível em: <a href=\"http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm\">http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm</a>. Acesso em: 16 set. 2023.</p>",
+      "<p>BRASIL, <b>Lei nº 13,709, de agosto de 2018.</b> Lei Geral de Proteção de Dados Pessoais (LGPD). Disponível em: <a href=\"https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm\">https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm</a>. Acesso em: 16 set. 2023.</p>",
+      "<p>FERREIRA, D. A. A.; PINHEIRO, M. M. K.; MARQUES, R. M. <b>Privacidade e proteção de dados pessoais: perspectiva histórica.</b> InCID: Revista de Ciência da Informação e Documentação, [S. l.], v. 12, n. 2, p. 151-172, 2021. DOI: 10.11606/issn.2178-2075.v12i2p151-172. Disponível em: <a href=\"https://www.revistas.usp.br/incid/article/view/179778\">https://www.revistas.usp.br/incid/article/view/179778</a>. Acesso em: 16 set. 2023.</p>",
+      "<p>KAHL, M.; FLORIANO, D. <b>Computação Ubíqua, Tecnologia Sem Limites.</b> In: Jaeger, E. V. (coord.). Metodologia da Pesquisa Científica. UDESC - Universidade do Estado de Santa Catarina, Centro de Ensino Superior do Alto Vale do Itajaí (CEAVI), 2011.</p>",
+      "<p>GODOY, C. L. B. DE. <b>Privacidade.</b> In: Enciclopédia Jurídica PUC-SP. Tomo Direito Civil, Edição 1, dezembro de 2021. Disponível em: <a href=\"https://enciclopediajuridica.pucsp.br/verbete/474/edicao-1/privacidade\">https://enciclopediajuridica.pucsp.br/verbete/474/edicao-1/privacidade</a>. Acesso em: 16 set. 2022</p>"
+    ]
+  }
+}
