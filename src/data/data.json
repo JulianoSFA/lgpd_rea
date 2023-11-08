@@ -21,9 +21,9 @@
     },
     {
       "icon": "fa fa-exclamation",
-      "title": "Como fazer!",
+      "title": "Recomendações",
       "text": "Conheça métodos para tratar dados via API em conformidade com a LGPD.",
-      "href": "#about"
+      "href": "#recommendations"
     },
     {
       "icon": "fa fa-comment",
