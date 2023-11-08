@@ -29,9 +29,9 @@ const App = () => {
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
       <Services data={landingPageData.Recommendations} />
-      <Form></Form>
-      <References></References>
-      <Footer data={landingPageData.Contact} />
+      <Form />
+      <References />
+      <Footer />
     </div>
   );
 };
