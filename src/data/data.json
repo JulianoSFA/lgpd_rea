@@ -105,12 +105,14 @@
       {
         "icon": "fa fa-lock",
         "name": "Criptografia de senha",
-        "text": "Mantenha a senha dos usuários sempre criptografadas usando criptografia unidirecional, como por exemplo a família SHA-2, não é necessário descriptografar a senha para checar, apenas criptografar a senha nova com a mesma chave e comparar as duas, dessa forma é praticamente impossível ocorrer um vazamento de senha"
+        "text": "Mantenha a senha dos usuários sempre criptografadas usando criptografia unidirecional, como por exemplo a família SHA-2, não é necessário descriptografar a senha para checar, apenas criptografar a senha nova com a mesma chave e comparar as duas, dessa forma é praticamente impossível ocorrer um vazamento de senha",
+        "code": "Exemplo em Python:\n\nimport hashlib\n\n# criptografar\nsenha = hashlib.sha256(\"hello world!!\".encode()).hexdigest()\n\n# validar\nhashlib.sha256(nova_senha.encode()).hexdigest() == senha"
       },
       {
         "icon": "fa fa-envelope-o",
         "name": "Borrar informações para seleção",
-        "text": "Quando for necessário pedir que o usuário escolha entre algum dado pessoal dele (email/telefone/endereço) para algum fim, como autenticação em 2 fatores ou seleção de endereço de entrega, envie a informação borrada (como por exemplo \"em***@g****.com\") e um hash, que vai ser enviado entre o servidor e a aplicação pra dizer qual informação foi escolhido, dessa forma as informações pessoais do usuário não são mostrados na tela e evita ataques de enumeração de usuário"
+        "text": "Quando for necessário pedir que o usuário escolha entre algum dado pessoal dele (email/telefone/endereço) para algum fim, como autenticação em 2 fatores ou seleção de endereço de entrega, envie a informação borrada (como por exemplo \"em***@gmail.com\") e um hash, que vai ser enviado entre o servidor e a aplicação pra dizer qual informação foi escolhido, dessa forma as informações pessoais do usuário não são mostrados na tela e evita ataques de enumeração de usuário",
+        "code": "Exemplo em Python para email:\n\npartes = \"bob@bob.com\".split('@')\nparte_1 = f\"{partes[0][0]}{'*'*len(partes[0])-2}\"\nparte_2 = partes[1]\ncontato_borrado = f\"{parte_1}@{parte_2}\""
       },
       {
         "icon": "fa fa-check",
@@ -120,7 +122,7 @@
       {
         "icon": "fa fa-times",
         "name": "Venda de dados",
-        "text": "Se uma organização planeja vender dados que coletou, ela deve garantir que tenha obtido o consentimento adequado do titular dos dados. Além disso, a organização deve estar preparada para atender a qualquer solicitação do titular dos dados relacionada aos seus direitos sob a LGPD. Vale ressaltar que a LGPD se aplica a qualquer processamento de dados que ocorra no Brasil, para fins de oferta de bens e serviços ou para processar dados de pessoas que estão localizadas no Brasil1. Portanto, mesmo que a organização que vende os dados não esteja fisicamente presente ou tenha sede no Brasil, ela ainda estará sujeita à LGPD se os titulares dos dados estiverem localizados no Brasil."
+        "text": "Se uma organização planeja vender dados que coletou, ela deve garantir que tenha obtido o consentimento adequado do titular dos dados. Além disso, a organização deve estar preparada para atender a qualquer solicitação do titular dos dados relacionada aos seus direitos sob a LGPD. Vale ressaltar que a LGPD se aplica a qualquer processamento de dados que ocorra no Brasil, para fins de oferta de bens e serviços ou para processar dados de pessoas que estão localizadas no Brasil. Portanto, mesmo que a organização que vende os dados não esteja fisicamente presente ou tenha sede no Brasil, ela ainda estará sujeita à LGPD se os titulares dos dados estiverem localizados no Brasil."
       }
     ]
   },

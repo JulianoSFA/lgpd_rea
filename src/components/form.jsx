@@ -98,27 +98,27 @@ export const Form = (props) => {
               <form>
               { questions.map((question, index) => {
                 return (
-                  <>
+                  <div key={`form-key-${index}`}>
                     <div>            
-                      <h4 style={{"font-size": "1.5rem", "color": "white"}}>PERGUNTA { index + 1 }</h4>
+                      <h4 style={{"fontSize": "1.5rem", "color": "white"}}>PERGUNTA { index + 1 }</h4>
                     </div>
-                    <div style={{"font-size": "1.25rem"}} className="pb-2">{question.question}</div>
+                    <div style={{"fontSize": "1.25rem"}} className="pb-2">{question.question}</div>
 
                     <div className="d-flex flex-column pb-5">
                       {question.answers.map((answer, answerIndex) => (
-                        <div key={`answer${index}`} className="d-flex align-items-center py-1">
+                        <div key={`answer-div-${index}-${answerIndex}`} className="d-flex align-items-center py-1">
                           <input 
                             className="col-1" 
                             type="radio" 
-                            id={`answer${index}${answerIndex}`} 
-                            name={`answer${index}`}
-                            value={answer}
+                            id={`answer-input-${index}-${answerIndex}`}
+                            name={`answer-${index}`}
+                            value={`${answer}`}
                             style={{height: "1rem"}}
                             onChange={() => handleAnswerOptionClick(index, answer)}
                           />
                           <label 
                             className="col-11" 
-                            style={{"font-size": "1rem"}} 
+                            style={{"fontSize": "1rem"}}
                             htmlFor={`answer${index}${answerIndex}`}
                           >
                             {`${ String.fromCharCode(97 + answerIndex)}) ${answer}`}
@@ -126,7 +126,7 @@ export const Form = (props) => {
                         </div>
                       ))}
                     </div>
-                  </>
+                  </div>
                 )})
               }
               </form>

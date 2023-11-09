@@ -19,6 +19,7 @@ export const Services = (props) => {
                   <div className="service-desc">
                     <h3>{d.name}</h3>
                     <p>{d.text}</p>
+                    {d.code && <div className="code-block"><div>{d.code}</div></div>}
                   </div>
                 </div>
               ))

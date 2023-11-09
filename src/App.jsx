@@ -20,7 +20,6 @@ const App = () => {
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
-  console.log(landingPageData.About)
   return (
 
     <div>

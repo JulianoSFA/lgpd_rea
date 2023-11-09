@@ -618,3 +618,18 @@ label {
     font-size: 1rem;
   }
 }
+
+.code-block {
+  background-color: #333;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.code-block div {
+  white-space: pre-wrap;
+  color: #f4f4f4;
+  font-family: 'Courier New', monospace;
+  text-align: left;
+}
