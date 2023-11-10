@@ -77,8 +77,28 @@ export const Form = (props) => {
       }
     }
 
+    var aTags = document.getElementsByTagName("label");
+    var searchTexts = questions.map((question) => question.correctAnswer);
+    var founds = [];
+
+    for (let i = 0; i < aTags.length; i++) {
+      for (let j = 0; j < searchTexts.length; j++) {
+        if (aTags[i].textContent.includes(searchTexts[j])) {
+          founds.push(aTags[i]);
+          break;
+        }
+      }
+    }
+
+    for (let i = 0; i < founds.length; i++) {
+      let classes = founds[i].classList;
+      classes.add("correct-answer");
+      founds[i].classList = classes;
+    }
+
+
     alert(`Você acertou ${score} de ${questions.length} perguntas.${questions.length === score ? '\n👏 Parabéns 👏' : ''}`);
-    cleanForm();
+    // cleanForm();
   };
 
   const cleanForm = () => {
