@@ -4,33 +4,33 @@ import React from "react";
 export const Form = (props) => {
   const questions = [
     {
-      question: 'Com a LGPD, como fica a lista de contatos que foi coletada pela minha empresa?',
+      question: 'A sua empresa visa regular sua situação para atender as demandas da LGPD, como fica a lista de contatos que ela coletou para operação dos clientes (entrar em contato, emitir boletos, etc.)?',
       answers: ['Deve ser excluída imediatamente.', 'Precisa ser revisada para garantir o consentimento adequado.', 'Pode ser mantida sem alterações.', ],
       correctAnswer: 'Precisa ser revisada para garantir o consentimento adequado.'
     },
     {
-      question: 'Mas e se a minha lista de contatos veio de terceiros, posso utilizá-la mesmo assim?',
+      question: 'Seu responsável pelas vendas comprou uma lista de contatos para fazer um SDR (prospecção de novos clientes), como deve ser tratado esses contatos?',
       answers: ['Depende do consentimento obtido dos titulares dos dados.', 'Sim, pode ser usada sem restrições.', 'Não, a LGPD proíbe o uso de listas de terceiros.'],
       correctAnswer: 'Depende do consentimento obtido dos titulares dos dados.'
     },
     {
-      question: 'Como fica a questão do relacionamento com outras empresas parceiras tendo em vista a LGPD?',
+      question: 'Na sua área de atuação é bem comum ter empresas parceiras compartilhando informações sobre seus clientes para o funcionamento do sistema como um todo, tendo em vista a LGPD, como fica essa relação?',
       answers: ['A LGPD não se aplica a relacionamentos com outras empresas.', 'As empresas parceiras devem seguir as mesmas regras da LGPD.', 'A LGPD não aborda essa questão.'],
       correctAnswer: 'As empresas parceiras devem seguir as mesmas regras da LGPD.'
     },
     {
-      question: 'Posso vender uma base de dados pessoais para outras empresas?',
-      answers: ['Sim, desde que os dados sejam anonimizados.', 'Não, a venda de dados pessoais é proibida pela LGPD.', 'Apenas se a empresa compradora concordar com os termos.'],
-      correctAnswer: 'Não, a venda de dados pessoais é proibida pela LGPD.'
+      question: 'Uma outra empresa entra em contato com você, eles tem a ideia de fazer uma campanha de marketing bem agressiva do produto deles em uma região que você atua, ela oferta comprar os dados dos clientes que você tem para poder fazer isso, como fica essa venda aos olhos da LGPD?',
+      answers: ['Pode ser feita, desde que os dados sejam anonimizados.', 'Não pode ser feita, a venda de dados pessoais é proibida pela LGPD.', 'Pode acontecer apenas se a empresa compradora concordar com os termos.'],
+      correctAnswer: 'Não pode ser feita, a venda de dados pessoais é proibida pela LGPD.'
     },
     {
-      question: 'Uma empresa de porte pequeno ou um MEI precisa se adequar à LGPD também?',
+      question: 'No cenário de uma empresa de porte pequeno ou um MEI (Micro Empreendedor Individual), essas empresas mesmo sendo pequenas, elas precisam se adequar à LGPD também?',
       answers: ['Não, a LGPD se aplica apenas a grandes empresas.', 'Sim, todas as empresas, independentemente do tamanho, devem se adequar.', 'Apenas se a empresa lida com dados sensíveis.'],
       correctAnswer: 'Sim, todas as empresas, independentemente do tamanho, devem se adequar.'
     },
     {
       question: 'O que são cookies em relação à privacidade de dados?',
-      answers: ['São deliciosos biscoitos de chocolate.', 'São pequenos arquivos de texto que os sites armazenam no dispositivo do usuário.', 'São senhas criptografadas para autenticação.'],
+      answers: ['São deliciosos biscoitos de chocolate 😋.', 'São pequenos arquivos de texto que os sites armazenam no dispositivo do usuário.', 'São senhas criptografadas para autenticação.'],
       correctAnswer: 'São pequenos arquivos de texto que os sites armazenam no dispositivo do usuário.'
     },
     {
@@ -92,7 +92,7 @@ export const Form = (props) => {
               <div className="section-title mb-2">
                 <h2>Você Aprendeu?</h2>
                 <p>
-                  Teste os seus conhecimento sobre a LGPD
+                  Vamos imaginar um cenário onde você é o dono de uma empresa, nesse exercício vamos fazer algumas perguntas para ver se você realmente aprendeu o conteúdo
                 </p>
               </div>
               <form>
