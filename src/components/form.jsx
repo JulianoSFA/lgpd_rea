@@ -66,6 +66,9 @@ export const Form = (props) => {
 
   const submitForm = (event) => {
     event.preventDefault();
+    if (Object.keys(selectedAnswers).length < 10){
+      return
+    }
 
     let score = 0;
     for (let i = 0; i < questions.length; i++) {
@@ -74,7 +77,7 @@ export const Form = (props) => {
       }
     }
 
-    alert(`Você acertou ${score} de ${questions.length} perguntas.`);
+    alert(`Você acertou ${score} de ${questions.length} perguntas.${questions.length === score ? '\n👏 Parabéns 👏' : ''}`);
     cleanForm();
   };
 
@@ -119,7 +122,7 @@ export const Form = (props) => {
                           <label 
                             className="col-11" 
                             style={{"fontSize": "1rem"}}
-                            htmlFor={`answer${index}${answerIndex}`}
+                            htmlFor={`answer-input-${index}-${answerIndex}`}
                           >
                             {`${ String.fromCharCode(97 + answerIndex)}) ${answer}`}
                           </label>
