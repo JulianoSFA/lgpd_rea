@@ -37,13 +37,13 @@
     "image": "img/rea/lgpd_intro.jpeg",
     "title": "O que é LGPD?",
     "id": "#lgpd",
-    "paragraph": "A Lei Geral de Proteção de Dados Pessoais (LGPD), foi criada em 2018 e entrou em vigor em 2021 no Brasil. Ela tem o objetivo de proteger os direitos de liberdade e privacidade das pessoas em relação aos seus dados pessoais. Ela se aplica a qualquer pessoa ou empresa que colete, armazene ou use dados pessoais no Brasil ou de pessoas localizadas no Brasil. A LGPD faz parte de um movimento global de segurança da informação, que busca garantir que os dados sejam tratados de forma ética, transparente e segura. Segurança da informação é a prática de proteger os dados contra riscos como acesso não autorizado, uso indevido, alteração, perda ou destruição",
+    "paragraph": "A Lei Geral de Proteção de Dados Pessoais (LGPD), foi criada em 2018 e entrou em vigor em 2021 no Brasil. Ela tem o objetivo de proteger os direitos de liberdade e privacidade das pessoas em relação aos seus dados pessoais. Ela se aplica a qualquer pessoa ou empresa que colete, armazene ou use dados pessoais no Brasil ou de pessoas localizadas no Brasil. A LGPD faz parte de um movimento global de segurança da informação, que busca garantir que os dados sejam tratados de forma ética, transparente e segura. Segurança da informação é a prática de proteger os dados contra riscos como acesso não autorizado, uso indevido, alteração, perda ou destruição.",
     "subtitle": "Principais Pontos",
     "topics": [
-      "Estabelece os princípios e as bases legais para o tratamento de dados pessoais, como o consentimento, a finalidade, a necessidade e a adequação.",
-      "Define os direitos dos titulares dos dados, como o acesso, a correção, a portabilidade, a eliminação e a revogação do consentimento.",
-      "Cria a Autoridade Nacional de Proteção de Dados (ANPD), que é o órgão responsável por fiscalizar e aplicar sanções em caso de violação da lei.",
-      "Prevê as responsabilidades e as sanções para os agentes de tratamento, que são as pessoas ou empresas que realizam o tratamento dos dados pessoais.",
+      "Estabelece os princípios e as bases legais para o tratamento de dados pessoais, como o consentimento, a finalidade, a necessidade e a adequação;",
+      "Define os direitos dos titulares dos dados, como o acesso, a correção, a portabilidade, a eliminação e a revogação do consentimento;",
+      "Cria a Autoridade Nacional de Proteção de Dados (ANPD), que é o órgão responsável por fiscalizar e aplicar sanções em caso de violação da lei;",
+      "Prevê as responsabilidades e as sanções para os agentes de tratamento, que são as pessoas ou empresas que realizam o tratamento dos dados pessoais;",
       "Exige que os agentes de tratamento adotem medidas técnicas e administrativas para garantir a segurança e a proteção dos dados pessoais."
     ]
   },
@@ -88,30 +88,30 @@
   "Recommendations": {
     "title": "Recomendações",
     "id": "recommendations",
-    "info": "Abaixo, segue algumas recomendações de ações que podem ser feitas para evitar problemas com dados pessoais",
+    "info": "Abaixo, segue algumas recomendações de ações que podem ser feitas para evitar problemas com dados pessoais:",
     "postInfo": " ",
     "colClass": "col-md-6",
     "items": [
       {
         "icon": "fa fa-info-circle",
         "name": "Consentimento de cookies",
-        "text": "É necessário avisar o usuário sobre o uso de cookies, a coleta de informações do usuário e o propósito da coleta caem na LGPD, logo essa coleta precisa ser notificada, autorizada e, em caso de dados não essenciais pro funcionamento do sistema, precisam dar a opção do usuário não concordar e desabilitar"
+        "text": "É necessário avisar o usuário sobre o uso de cookies, a coleta de informações do usuário e o propósito da coleta caem na LGPD, logo essa coleta precisa ser notificada, autorizada e, em caso de dados não essenciais pro funcionamento do sistema, precisam dar a opção do usuário não concordar e desabilitar."
       },
       {
         "icon": "fa fa-times-circle",
         "name": "Exclusão de conta",
-        "text": "De acordo com a LGPD o detentor dos dados pode solicitar a exclusão dos dados a qualquer momento, sendo assim é preciso alguma forma do usuário poder apagar a própria conta, um botão sendo a forma mais prática (em algumas lojas de aplicativo, como da apple, isso é uma obrigatoriedade de todos os apps), essa função deve limpar completamente as informações do usuário e garantir que nenhum dado possa ser rastreado devolta a ele"
+        "text": "De acordo com a LGPD o detentor dos dados pode solicitar a exclusão dos dados a qualquer momento, sendo assim é preciso alguma forma do usuário poder apagar a própria conta, um botão sendo a forma mais prática (em algumas lojas de aplicativo, como da apple, isso é uma obrigatoriedade de todos os apps), essa função deve limpar completamente as informações do usuário e garantir que nenhum dado possa ser rastreado devolta a ele."
       },
       {
         "icon": "fa fa-lock",
         "name": "Criptografia de senha",
-        "text": "Mantenha a senha dos usuários sempre criptografadas usando criptografia unidirecional, como por exemplo a família SHA-2, não é necessário descriptografar a senha para checar, apenas criptografar a senha nova com a mesma chave e comparar as duas, dessa forma é praticamente impossível ocorrer um vazamento de senha",
+        "text": "Mantenha a senha dos usuários sempre criptografadas usando criptografia unidirecional, como por exemplo a família SHA-2, não é necessário descriptografar a senha para checar, apenas criptografar a senha nova com a mesma chave e comparar as duas, dessa forma é praticamente impossível ocorrer um vazamento de senha.",
         "code": "Exemplo em Python:\n\nimport hashlib\n\n# criptografar\nsenha = hashlib.sha256(\"hello world!!\".encode()).hexdigest()\n\n# validar\nhashlib.sha256(nova_senha.encode()).hexdigest() == senha"
       },
       {
         "icon": "fa fa-envelope-o",
         "name": "Borrar informações para seleção",
-        "text": "Quando for necessário pedir que o usuário escolha entre algum dado pessoal dele (email/telefone/endereço) para algum fim, como autenticação em 2 fatores ou seleção de endereço de entrega, envie a informação borrada (como por exemplo \"em***@gmail.com\") e um hash, que vai ser enviado entre o servidor e a aplicação pra dizer qual informação foi escolhido, dessa forma as informações pessoais do usuário não são mostrados na tela e evita ataques de enumeração de usuário",
+        "text": "Quando for necessário pedir que o usuário escolha entre algum dado pessoal dele (email/telefone/endereço) para algum fim, como autenticação em 2 fatores ou seleção de endereço de entrega, envie a informação borrada (como por exemplo \"em***@gmail.com\") e um hash, que vai ser enviado entre o servidor e a aplicação pra dizer qual informação foi escolhido, dessa forma as informações pessoais do usuário não são mostrados na tela e evita ataques de enumeração de usuário.",
         "code": "Exemplo em Python para email:\n\npartes = \"bob@bob.com\".split('@')\nparte_1 = f\"{partes[0][0]}{'*'*len(partes[0])-2}\"\nparte_2 = partes[1]\ncontato_borrado = f\"{parte_1}@{parte_2}\""
       },
       {

@@ -115,7 +115,7 @@ export const Form = (props) => {
               <div className="section-title mb-2">
                 <h2>Você Aprendeu?</h2>
                 <p>
-                  Vamos imaginar um cenário onde você é o dono de uma empresa, nesse exercício vamos fazer algumas perguntas para ver se você realmente aprendeu o conteúdo
+                  Vamos imaginar um cenário onde você é o dono de uma empresa, nesse exercício vamos fazer algumas perguntas para ver se você realmente aprendeu o conteúdo.
                 </p>
               </div>
               <form>
