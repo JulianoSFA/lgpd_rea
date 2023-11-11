@@ -661,3 +661,9 @@ label {
     overflow-wrap: break-word;
   }
 }
+
+@media screen and (max-width: 280px) {
+  h2 {
+    font-size: 29px;
+  }
+}
