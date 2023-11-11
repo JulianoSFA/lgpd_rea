@@ -205,10 +205,10 @@ a:focus,
 }
 /* Header Section */
 .intro {
-  display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/rea/cyber-security-3400657_1920.jpg) center center no-repeat;
+  background: url(../img/rea/cyber-security-3400657_1920.jpg) center center
+    no-repeat;
   opacity: 0.9;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
@@ -306,13 +306,16 @@ header .intro-text {
   line-height: 24px;
   margin: 30px 0;
 }
+#about a {
+  text-wrap: wrap;
+}
 /* Services Section */
 #services {
   padding: 100px 0;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: #fff !important;
 }
-#services:nth-child(odd){
+#services:nth-child(odd) {
   padding: 100px 0;
   background: linear-gradient(to right, #fff 0%, #f0f0f0 100%);
   color: black !important;
@@ -349,7 +352,7 @@ header .intro-text {
   color: #fff;
 }
 #services:nth-child(odd) h3 {
-  color: black !important
+  color: black !important;
 }
 
 #services .service-desc {
@@ -604,6 +607,10 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
+.about-text a {
+  overflow-wrap: break-word;
+}
+
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
@@ -611,6 +618,10 @@ label {
 }
 
 @media screen and (max-width: 768px) {
+  .title-text {
+    font-size: 38px;
+  }
+
   .intro h1 {
     font-size: 3rem;
   }
@@ -637,4 +648,15 @@ label {
 .correct-answer {
   color: mediumspringgreen;
   text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+}
+
+@media screen and (max-width: 576px) {
+  h2 {
+    font-size: 33px;
+  }
+
+  .title-text {
+    font-size: 38px;
+    overflow-wrap: break-word;
+  }
 }
