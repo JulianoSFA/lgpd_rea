@@ -10,12 +10,12 @@ export const Header = (props) => {
               <div className="col-md-8 intro-text">
                 <h1>
                   <span className="title-text">
-                    {props.data ? props.data.title : "Carregando"}
+                    {props.data ? props.data.title : "Loading"}
                   </span>
                 </h1>
                 <p>
                   <span>
-                    {props.data ? props.data.paragraph : "Carregando"}
+                    {props.data ? props.data.paragraph : "Loading"}
                   </span>
                 </p>
                 <a
